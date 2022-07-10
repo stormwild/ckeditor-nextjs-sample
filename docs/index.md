@@ -90,3 +90,5 @@ const Editor = dynamic(() => import("../components/Editor"), { ssr: false });
 [Why am I getting ReferenceError: self is not defined when I import a client-side library?](https://stackoverflow.com/questions/66096260/why-am-i-getting-referenceerror-self-is-not-defined-when-i-import-a-client-side)
 
 [next-dynamic-modules | Next.js](https://nextjs.org/docs/messages/next-dynamic-modules)
+
+[Exploring Dynamic Imports in Next.js](https://javascript.plainenglish.io/exploring-next-js-dynamic-import-ccb28a03e7f9)
