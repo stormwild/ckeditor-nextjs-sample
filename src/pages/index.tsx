@@ -2,9 +2,13 @@ import type { NextPage } from "next";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import Image from "next/image";
+import { Suspense } from "react";
 import styles from "../styles/Home.module.css";
 
-const Editor = dynamic(() => import("../components/Editor"), { ssr: false });
+const Editor = dynamic(() => import("../components/Editor"), {
+  ssr: false,
+  loading: () => <p>Loading CKEditor...</p>,
+});
 
 const Home: NextPage = () => {
   return (
