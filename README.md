@@ -41,6 +41,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ```sh
 yarn workspace @ckeditor/ckeditor5-build-custom add @ckeditor/ckeditor5-list
+yarn workspace @ckeditor/ckeditor5-build-custom build
 ```
 
 ![](./docs/nextjs-ckeditor-todo-list-working.png)
