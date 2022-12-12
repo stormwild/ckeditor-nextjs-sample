@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "dev": "next dev",
-    "build": "yarn && yarn workspace @ckeditor/ckeditor5-build-custom build && yarn && next build",
+    "build": "yarn workspace @ckeditor/ckeditor5-build-custom install && yarn workspace @ckeditor/ckeditor5-build-custom build && yarn && next build",
     "start": "next start",
     "lint": "next lint"
   },
