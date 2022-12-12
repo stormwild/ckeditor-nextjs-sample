@@ -1,10 +1,11 @@
 import { CKEditor } from '@ckeditor/ckeditor5-react'
-import CustomEditor from '@ckeditor/ckeditor5-build-custom'
+import ClassicEditorBuild from '@ckeditor/ckeditor5-build-classic'
+// import CustomEditor from '@ckeditor/ckeditor5-build-custom'
 
-const Editor = () => {
+const ClassicEditor = () => {
   return (
     <CKEditor
-      editor={CustomEditor}
+      editor={ClassicEditorBuild}
       data='<p>Hello from CKEditor 5!</p>'
       onReady={(editor) => {
         // You can store the "editor" and use when it is needed.
@@ -24,4 +25,4 @@ const Editor = () => {
   )
 }
 
-export default Editor
+export default ClassicEditor

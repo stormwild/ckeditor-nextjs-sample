@@ -36,3 +36,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Demo
 
 ![](./docs/nextjs-ckeditor-demo-working.png)
+
+## Working To do list
+
+```sh
+yarn workspace @ckeditor/ckeditor5-build-custom add @ckeditor/ckeditor5-list
+```
+
+![](./docs/nextjs-ckeditor-todo-list-working.png)

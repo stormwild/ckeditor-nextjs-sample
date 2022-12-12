@@ -6,12 +6,12 @@ import { Suspense } from 'react'
 import HeadContent from '../components/head-content'
 import styles from '../styles/Home.module.css'
 
-const Editor = dynamic(() => import('../components/Editor'), {
+const ClassicEditor = dynamic(() => import('../components/ClassicEditor'), {
   ssr: false,
   loading: () => <p>Loading CKEditor...</p>,
 })
 
-const Home: NextPage = () => {
+const ClassicEditorPage: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -25,9 +25,9 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
           <div className={styles.editor}>
-            <h2>Custom Editor</h2>
+            <h2>Classic Editor</h2>
             <p>CKEditor Sample</p>
-            <Editor />
+            <ClassicEditor />
           </div>
         </div>
       </main>
@@ -48,4 +48,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default ClassicEditorPage
