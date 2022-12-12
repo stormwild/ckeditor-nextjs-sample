@@ -5,7 +5,7 @@
     "main": "./build/ckeditor.js",
     "scripts": {
         "dev": "webpack --mode development",
-        "build": "yarn && ./node_modules/.bin/webpack --mode production",
+        "build": "yarn && npx webpack --mode production",
         "preversion": "yarn run build"
     },
     "dependencies": {
