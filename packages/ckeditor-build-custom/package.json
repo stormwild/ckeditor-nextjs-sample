@@ -29,7 +29,7 @@
         "@ckeditor/ckeditor5-paste-from-office": "^35.3.2",
         "@ckeditor/ckeditor5-table": "^35.3.2",
         "@ckeditor/ckeditor5-typing": "^35.3.2",
-        "postcss": "^8.4.20"
+        "postcss": "^8.4.31"
     },
     "devDependencies": {
         "@ckeditor/ckeditor5-core": "^35.3.2",
